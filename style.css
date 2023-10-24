@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+html {
+  font-family: "Montserrat", sans-serif, serif, "times new Roman", georgia, roboto; }
+
+.col-grey {
+  color: #111111;
+  background-color: #f2f2f2; }
+
+.u-body {
+  max-width: 2100px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 40px; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  box-sizing: border-box; }
+
+.subgrid-social {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 100%;
+  justify-items: center;
+  align-items: center; }
+
+.grid-item {
+  margin: 10px;
+  padding: 30px 10px;
+  min-height: 540px;
+  min-width: 340px; }
+
+.u-text {
+  word-wrap: break-word;
+  position: relative;
+  font-family: "Montserrat", sans-serif; }
+
+.u-text-2 {
+  padding: 25px;
+  word-wrap: break-word;
+  position: relative;
+  text-align: left;
+  font-size: 3.3rem;
+  height: 100%;
+  justify-items: center;
+  align-items: center; }
+
+.u-text-3 {
+  padding: 25px;
+  word-wrap: break-word;
+  position: relative;
+  text-align: left;
+  font-size: 2.3rem;
+  font-family: roboto, sans-serif;
+  font-weight: lighter; }
+
+.border-20 {
+  border: 2rem solid #f19a0e; }
+
+.bgimg-1 {
+  background: no-repeat url("images/pexels-photo-9821204.jpeg");
+  background-size: cover;
+  max-width: 100%; }
+
+.bgimg-2 {
+  background: no-repeat url("images/pexels-photo-6165874.jpeg");
+  background-size: cover;
+  max-width: 100%; }
+
+.bgimg-3 {
+  background: no-repeat url("images/pexels-photo-9808791.jpeg");
+  background-size: cover;
+  max-width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
